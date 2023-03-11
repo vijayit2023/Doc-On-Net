@@ -313,4 +313,4 @@ def visual():
 
 
 if __name__ == '__main__':
-    app.run(Debug = True)
+    app.run(Debug = False, host='0.0.0.0')
